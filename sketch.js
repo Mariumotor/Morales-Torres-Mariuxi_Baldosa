@@ -154,6 +154,8 @@ function setup() {
 
 function draw() {
   //background(111);
+  // Cambiar el color del fondo con un tono pastel aleatorio
+ // background(random(200, 255), random(200, 255), random(200, 255));
 
   //filtrar celdas con opciones disponibles y no colapsadas
   const celdasConOpciones = celdas.filter((celda) => {
