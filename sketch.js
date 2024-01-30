@@ -1,10 +1,11 @@
 const celdas = [];
-const RETICULA = 6;
+const RETICULA = 8;
 
 let ancho; //anchura de celda
 let alto; //altura de celda
 
 const azulejos = [];
+const coloresAzulejos = []; // esta matriz de colores para cada azulejo
 
 let opcionesI = []; //opciones de los azulejos
 
@@ -123,6 +124,7 @@ const reglas = [
 		LEFT: 1,
 	},
 ];
+
 const NA = reglas.length; // numero de azulejos
 function preload() {
   for (let i = 0; i < NA; i++) {
