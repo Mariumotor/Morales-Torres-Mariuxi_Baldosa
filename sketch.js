@@ -1,5 +1,5 @@
 const celdas = [];
-const RETICULA = 8;
+const RETICULA = 5;
 
 let ancho; //anchura de celda
 let alto; //altura de celda
@@ -121,6 +121,89 @@ const reglas = [
 		UP: 1,
 		RIGHT: 0,
 		DOWN: 0,
+		LEFT: 1,
+	},
+  {
+		// tile 16
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 1,
+		LEFT: 1,
+	},
+  {
+		// tile 17
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 1,
+		LEFT: 0,
+	},
+  {
+		// tile 18
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 1,
+		LEFT: 1,
+	},
+  {
+		// tile 19
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 0,
+		LEFT: 0,
+	},
+  {
+		// tile 20
+		UP: 0,
+		RIGHT: 0,
+		DOWN: 1,
+		LEFT: 1,
+	},
+  {
+		// tile 21
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 1,
+		LEFT: 1,
+	},{
+		// tile 22
+		UP: 1,
+		RIGHT: 0,
+		DOWN: 0,
+		LEFT: 0,
+	},
+  {
+		// tile 23
+		UP: 0,
+		RIGHT: 0,
+		DOWN: 0,
+		LEFT: 1,
+	},
+  {
+		// tile 24
+		UP: 1,
+		RIGHT: 0,
+		DOWN: 1,
+		LEFT: 0,
+	},
+  {
+		// tile 25
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 0,
+		LEFT: 1,
+	},
+  {
+		// tile 26
+		UP: 0,
+		RIGHT: 0,
+		DOWN: 1,
+		LEFT: 1,
+	},
+  {
+		// tile 27
+		UP: 1,
+		RIGHT: 1,
+		DOWN: 1,
 		LEFT: 1,
 	},
 ];
